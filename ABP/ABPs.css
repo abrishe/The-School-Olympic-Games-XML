@@ -1,0 +1,133 @@
+body{
+
+
+    background:url(/img/background2.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    
+}
+
+.header {
+    
+    background:url(https://png.pngtree.com/thumb_back/fh260/background/20191029/pngtree-abstract-speed-background-vector-image_320855.jpg);
+    background-position: center center;
+    background-attachment: relative;
+    background-size: cover;
+    color: white;
+    box-shadow: 10px 1px 5px gray;
+    padding-bottom: 4px;
+    position: relative;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 99px;
+}
+.header a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+.logo {
+letter-spacing: 5px;
+font-size: 3rem;
+margin-left: 2em;
+
+}
+.navigation ul {
+    margin: 2em;
+    padding: 0;
+    list-style: none;
+}
+.navigation ul li {
+    display: inline-block;
+}
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+.navigation ul li a:hover {
+    background: rgb(26, 233, 233);
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 850px;
+    margin: 20px auto;
+       
+}
+
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;   
+    margin: 45px;     
+    width: 480px; 
+    text-align: left;   
+    border-collapse: collapse; 
+    width: 100em;
+    box-shadow: 0px 10px 10px black;
+    margin-bottom: 20em;
+    margin-top: 10em;
+}
+    
+th {
+    font-size: 13px;     
+    font-weight: normal;     
+    padding: 8px;     
+    background: #6c84d4;
+    border-top: 4px solid #aabcfe;    
+    border-bottom: 1px solid #fff; 
+    color: rgb(3, 47, 134); }
+    
+td {
+    padding: 8px;     
+    background: #e8edff;     
+    border-bottom: 1px solid #fff;
+    color: #669;    
+    border-top: 1px solid transparent; }
+    
+tr:hover td { background: #d0dafd; color: #339; }
+   
+   
+caption{
+    font-size: 2em;
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 10px 10px 5px gray;
+    margin-bottom: 1em;
+    
+    }
+    caption.redondeado {
+        border-radius: 5px;
+      }
+
+.footer {
+    background: rgb(6, 93, 119);
+    height: 7em;
+    text-align: center;
+    margin-top: 4rem;
+    background:url(https://png.pngtree.com/thumb_back/fh260/background/20191029/pngtree-abstract-speed-background-vector-image_320855.jpg);
+    background-position: center center;
+    background-attachment: absolute;
+    background-size: cover;
+    color: white;
+    font-size: 25px;
+    bottom: 0;
+}
+    
+
+
+center{
+    
+    color: #d0dafd;
+    font-size: 3rem;
+    margin-bottom: 1.3;
+
+}

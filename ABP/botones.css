@@ -1,0 +1,175 @@
+body{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    background:url(/img/background2.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+h1{
+color: white;
+}
+
+.salto {
+    width: 30%;
+    height: 300px;
+    color: blue;
+    background-color: black;
+    position: 20% 20% 20% 20%;
+    background: url(img/salto_11.jpg);
+    background-position: center center;
+    background-attachment: relative;
+    background-size: cover;
+}
+.quatromil {
+    width: 30%;
+    height: 300px;
+    color:blue;
+    background-color: black;
+    background: url(img/relevos.png);
+    background-position: center center;
+    background-attachment: relative;
+    background-size: cover;
+}
+.dosmil{
+    width: 30%;
+    height: 300px;
+    background-color: rgb(201, 180, 195);
+}
+.cien{
+    width: 30%;
+    height: 300px;
+    background:url(../img/background2.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+a {
+    text-decoration: none;
+}
+.container a div h1{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.hombre{
+    width: 30%;
+    height: 300px;
+    background-color: rgb(240, 239, 247);
+}
+.mujer{
+    width: 30%;
+    height: 300px;
+    background-color: rgb(189, 171, 159);
+    margin-bottom: 19em;
+}
+.inf{
+    width: 30%;
+    height: 100px;
+    background-color: rgb(86, 218, 59);
+    margin-bottom: 3em;
+    margin-top: 6em;
+}
+.cad{
+    width: 30%;
+    height: 100px;
+    background-color: rgb(59, 133, 218);
+    margin-bottom: 15em;
+    
+    
+}
+.juv{
+    width: 30%;
+    height: 100px;
+    background-color: rgb(218, 59, 72);
+    margin-bottom: 3em;
+    
+}
+.masc{
+    margin-top: 10em;
+    width: 30%;
+    height: 100px;
+    background-color: rgb(59, 133, 218);
+    margin-bottom: 3em;
+    
+}
+.fem{
+    width: 30%;
+    height: 100px;
+    background-color: rgb(218, 59, 72);
+    margin-bottom: 15em;
+    
+}
+/*
+
+cabecera
+
+*/
+
+.header {
+    
+    background:url(https://png.pngtree.com/thumb_back/fh260/background/20191029/pngtree-abstract-speed-background-vector-image_320855.jpg);
+    background-position: center center;
+    background-attachment: relative;
+    background-size: cover;
+    color: white;
+    box-shadow: 10px 1px 5px gray;
+    padding-bottom: 4px;
+    position: relative;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 99px;
+}
+.header a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+.logo {
+letter-spacing: 5px;
+font-size: 3rem;
+margin-left: 2em;
+
+}
+.navigation ul {
+    margin: 2em;
+    padding: 0;
+    list-style: none;
+}
+.navigation ul li {
+    display: inline-block;
+}
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+.navigation ul li a:hover {
+    background: rgb(26, 233, 233);
+}
+
+
+/*
+footer
+*/
+
+.footer {
+    background: rgb(6, 93, 119);
+    height: 7em;
+    text-align: center;
+    margin-top: 4rem;
+    background:url(https://png.pngtree.com/thumb_back/fh260/background/20191029/pngtree-abstract-speed-background-vector-image_320855.jpg);
+    background-position: center center;
+    background-attachment: absolute;
+    background-size: cover;
+    color: white;
+    font-size: 25px;
+    bottom: 0;
+}
+  
